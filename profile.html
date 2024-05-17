@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page - Hi-Fi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3dc53b44d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="mypics/LOGO12.png" class="logo">
+            <ul>
+                <li>
+                    <img src="images/notification.png" alt="">
+                </li>
+
+                <li>
+                    <img src="images/inbox.png" alt="">
+                </li>
+                <li>
+                    <img src="images/video.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="mypics/profile111.png" alt="">
+
+            </div>
+        </div>
+        <!-- setting-menu -->
+
+        <div class="setting-menu">
+            <div id="dark-btn" class="">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="mypics/profile111.png">
+                    <div>
+                        <p>Chaitu Nusum</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">settings & Privacy <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- profile page -->
+    <div class="profile-container">
+        <img src="mypics/mruh.webp" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="mypics/profile1.png" class="pd-image">
+                    <div>
+                        <h3>Chaitu Nusum</h3>
+                        <p>4300 Friends </p>
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="images/add-friends.png">Friend</button>
+                <button type="button"><img src="images/message.png">Message</button><br>
+                <a href=""><img src="images/more.png"></a>
+            </div>
+
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things....<img
+                            src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png"> Student at MRUH</li>
+                        <li><img src="images/profile-study.png">went to Sri Saraswathi jr clg</li>
+                        <li> <img src="images/profile-study.png">went to Sri Sai High School</li>
+                        <li> <img src="images/profile-home.png">Lives in Hyderabad</li>
+                        <li><img src="images/profile-location.png">From Ongole, India</li>
+
+
+                    </ul>
+                </div>
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="mypics/lab.jpeg"></div>
+                        <div><img src="mypics/profile1.png"></div>
+                        <div><img src="mypics/arvind.jpeg"></div>
+                        <div><img src="mypics/grOUP.jpeg"></div>
+                        <div><img src="mypics/tharun.jpeg"></div>
+                        <div><img src="mypics/back.jpeg"></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="photo-box">
+                        <div><img src="mypics/Arindpic.jpeg">
+                            <p>Arvind Mora </p>
+                        </div>
+                        <div><img src="images/member-1.png">
+                            <p>Arjun singh</p>
+                        </div>
+                        <div><img src="mypics/tharun.jpeg">
+                            <p>Tharun Netha</p>
+                        </div>
+                        <div><img src="images/member-4.png">
+                            <p>Sai Kumar</p>
+                        </div>
+                        <div><img src="mypics/grOUP.jpeg">
+                            <p>Omkar</p>
+                        </div>
+                        <div><img src="images/member-7.png">
+                            <p>Mari</p>
+                        
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+
+                    <div class="user-profile">
+                        <img src="mypics/profile111.png">
+                        <div>
+                            <p>Chaitu Nusum</p>
+                            <small>Public <i class="fa-solid fa-sort-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Chaitu Nusum?"></textarea>
+
+
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png">Live Video </a>
+                            <a href="#"><img src="images/photo.png">photo/Video </a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="mypics/profile111.png">
+                            <div>
+                                <p>Chaitu Nusum is at <i class="fa-solid fa-location-dot"></i> Malla Reddy University
+                                </p>
+
+                                <span>july 22 2022,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+                    <p class="post-text"> <i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i><i
+                            class="fa-solid fa-heart"></i></p>
+                    <!-- group pic -->
+                    <img src="mypics/grOUP.jpeg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">389</div>
+                            <div><img src="images/comments.png">110</div>
+                            <div><img src="images/share.png">11</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="mypics/profile111.png"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- 2nd post -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="mypics/profile111.png">
+                            <div>
+                                <p>Chaitu Nusum is at <i class="fa-solid fa-location-dot"></i> Malla Reddy University
+                                </p>
+
+                                <span>july 22 2022,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+                    
+                    <!-- group pic -->
+                    <img src="mypics/lab.jpeg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">389</div>
+                            <div><img src="images/comments.png">110</div>
+                            <div><img src="images/share.png">11</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="mypics/profile111.png"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- 3th post -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="mypics/profile111.png">
+                            <div>
+                                <p>Chaitu Nusum is added new post
+                                </p>
+
+                                <span>july 22 2022,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+                    <!-- group pic -->
+                    <img src="mypics/profile1.png" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">389</div>
+                            <div><img src="images/comments.png">110</div>
+                            <div><img src="images/share.png">11</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="mypics/profile111.png"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- 4th post -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="mypics/profile111.png">
+                            <div>
+                                <p>Chaitu Nusum is at <i class="fa-solid fa-location-dot"></i> Next Gallery
+                                </p>
+
+                                <span>july 22 2022,13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                    </div>
+
+                   
+                    <!-- group pic -->
+                    <img src="mypics/mall.jpeg" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like-blue.png">389</div>
+                            <div><img src="images/comments.png">110</div>
+                            <div><img src="images/share.png">11</div>
+
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="mypics/profile111.png"><i class="fa-solid fa-sort-down"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>CopyRight 2022- HI-FI Community</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
